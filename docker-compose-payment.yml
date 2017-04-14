@@ -1,7 +1,6 @@
-version: '3'
-
+version: "3"
 services:
   payment:
-    image: weaveworksdemos/payment
     environment:
-      - reschedule=on-node-failure
+    - reschedule=on-node-failure
+    image: index.docker.io/weaveworksdemos/payment:master-923c8b03
