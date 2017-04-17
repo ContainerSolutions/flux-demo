@@ -1,7 +1,6 @@
-version: '3'
-
+version: "3"
 services:
   catalogue:
-    image: weaveworksdemos/catalogue
     environment:
-      - reschedule=on-node-failure
+    - reschedule=on-node-failure
+    image: index.docker.io/weaveworksdemos/catalogue:slow-version
