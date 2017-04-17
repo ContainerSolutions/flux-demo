@@ -3,6 +3,6 @@ services:
   front-end:
     environment:
     - reschedule=on-node-failure
-    image: index.docker.io/weaveworksdemos/front-end:blue-buttons
+    image: index.docker.io/weaveworksdemos/front-end:master-ac9ca707
     ports:
     - 80:8079
