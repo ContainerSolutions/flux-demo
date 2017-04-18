@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  carts:
+  cart:
     image: weaveworksdemos/carts
     environment:
       - reschedule=on-node-failure
