@@ -1,8 +1,7 @@
-version: '3'
-
-services: 
+version: "3"
+services:
   user:
-    image: weaveworksdemos/user
     environment:
-      - MONGO_HOST=user-db:27017
-      - reschedule=on-node-failure
+    - MONGO_HOST=user-db:27017
+    - reschedule=on-node-failure
+    image: index.docker.io/weaveworksdemos/user:0.4.4
