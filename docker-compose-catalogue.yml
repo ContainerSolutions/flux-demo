@@ -3,4 +3,4 @@ services:
   catalogue:
     environment:
     - reschedule=on-node-failure
-    image: index.docker.io/weaveworksdemos/catalogue:fast-version
+    image: index.docker.io/weaveworksdemos/catalogue:slow-version
