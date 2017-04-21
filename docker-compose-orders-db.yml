@@ -5,3 +5,5 @@ services:
     image: mongo
     environment:
       - reschedule=on-node-failure
+    labels:
+        prometheus.ignore: "true"

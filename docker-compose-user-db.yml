@@ -5,3 +5,5 @@ services:
     image: weaveworksdemos/user-db
     environment:
       - reschedule=on-node-failure
+    labels:
+        prometheus.ignore: "true"

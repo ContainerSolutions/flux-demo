@@ -5,3 +5,5 @@ services:
     image: rabbitmq:3
     environment:
       - reschedule=on-node-failure
+    labels:
+        prometheus.ignore: "true"
